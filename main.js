@@ -37611,6 +37611,13 @@ function withPreloading(preloadingStrategy) {
   }];
   return routerFeature(0, providers);
 }
+function withHashLocation() {
+  const providers = [{
+    provide: LocationStrategy,
+    useClass: HashLocationStrategy
+  }];
+  return routerFeature(6, providers);
+}
 function withComponentInputBinding() {
   const providers = [RoutedComponentInputBinder, {
     provide: INPUT_BINDER,
@@ -42742,7 +42749,7 @@ var routes = [
 var appConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
-    provideRouter(routes)
+    provideRouter(routes, withHashLocation())
   ]
 };
 
