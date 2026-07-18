@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 29.6.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 9)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: #fff;
+      }
+
+      .st1 {
+        font-family: Montserrat-Regular, Montserrat;
+        font-size: 32.17px;
+        letter-spacing: 0em;
+      }
+
+      .st2 {
+        fill: #070707;
+      }
+    </style>
+  </defs>
+  <rect class="st2" width="512" height="512" rx="88" ry="88"/>
+  <path class="st0" d="M410,187.94c-.06-41.63-32.51-75.74-70.59-88.05-47.29-15.29-109.66-13.07-154.81,8.21-54.73,25.8-71.92,82.3-72.56,138.66-.53,46.33,4.1,168.37,73.02,169.24,51.21.65,58.83-65.25,82.52-96.99,16.86-22.58,38.56-28.96,65.28-35.56,45.92-11.35,77.21-47.55,77.15-95.5h0Z"/>
+  <text class="st1" transform="translate(42.61 490.35)"><tspan x="0" y="0">Better Patreon Comments</tspan></text>
+</svg>
