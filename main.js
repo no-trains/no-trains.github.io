@@ -37814,7 +37814,7 @@ var _c0 = (a0) => ({ "material-symbols-outlined": true, "liked-icon": a0 });
 var _forTrack0 = ($index, $item) => $item.id;
 function Comments_For_11_Conditional_22_Template(rf, ctx) {
   if (rf & 1) {
-    \u0275\u0275domElementStart(0, "div", 24)(1, "span", 25);
+    \u0275\u0275domElementStart(0, "div", 23)(1, "span", 24);
     \u0275\u0275text(2, "favorite");
     \u0275\u0275domElementEnd()();
   }
@@ -37829,16 +37829,16 @@ function Comments_For_11_Template(rf, ctx) {
     \u0275\u0275domElementStart(0, "div", 7)(1, "div", 8);
     \u0275\u0275domElement(2, "img", 9);
     \u0275\u0275domElementEnd();
-    \u0275\u0275domElementStart(3, "div", 10)(4, "div", 11)(5, "div", 12)(6, "div", 11)(7, "div", 13)(8, "span", 14);
+    \u0275\u0275domElementStart(3, "div", 10)(4, "div", 11)(5, "div", 12)(6, "div", 11)(7, "div", 10)(8, "span", 13);
     \u0275\u0275text(9);
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(10, "div", 15)(11, "span", 16);
+    \u0275\u0275domElementStart(10, "div", 14)(11, "span", 15);
     \u0275\u0275text(12);
     \u0275\u0275pipe(13, "timeAgo");
     \u0275\u0275domElementEnd()()();
-    \u0275\u0275domElement(14, "div", 17);
+    \u0275\u0275domElement(14, "div", 16);
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(15, "div", 18)(16, "div", 19)(17, "div", 20)(18, "span", 21);
+    \u0275\u0275domElementStart(15, "div", 17)(16, "div", 18)(17, "div", 19)(18, "span", 20);
     \u0275\u0275domListener("click", function Comments_For_11_Template_span_click_18_listener() {
       const message_r2 = \u0275\u0275restoreView(_r1).$implicit;
       const ctx_r2 = \u0275\u0275nextContext();
@@ -37846,10 +37846,10 @@ function Comments_For_11_Template(rf, ctx) {
     });
     \u0275\u0275text(19, "favorite");
     \u0275\u0275domElementEnd()();
-    \u0275\u0275domElementStart(20, "div", 22);
+    \u0275\u0275domElementStart(20, "div", 21);
     \u0275\u0275text(21);
     \u0275\u0275domElementEnd();
-    \u0275\u0275conditionalCreate(22, Comments_For_11_Conditional_22_Template, 3, 2, "div", 23);
+    \u0275\u0275conditionalCreate(22, Comments_For_11_Conditional_22_Template, 3, 2, "div", 22);
     \u0275\u0275domElementEnd()()()();
   }
   if (rf & 2) {
@@ -37959,7 +37959,7 @@ var Comments = class _Comments {
   static \u0275fac = function Comments_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _Comments)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _Comments, selectors: [["app-comments"]], decls: 12, vars: 1, consts: [[1, "container", "page-container"], [1, "row", "justify-content-end"], [1, "col-3", "d-flex", "justify-content-end"], ["aria-label", "sort select", 1, "form-select", 3, "change", "value"], ["selected", "", "value", "newest"], ["value", "oldest"], ["value", "likes"], [1, "row", "mt-5"], [1, "col", "col-1", "profile-picture"], ["alt", "Profile Picture", "width", "32", "height", "32", 1, "rounded-circle", 3, "src"], [1, "col", "col-11"], [1, "row"], [1, "message"], [1, "col"], [1, "message-author"], [1, "col", "text-end"], [1, "message-date"], [1, "message-content", 3, "innerHTML"], [1, "row", "mt-3"], [1, "col", "col-2", "d-flex", "align-self-center"], [1, "me-2", "d-flex", "align-self-center"], ["role", "button", 3, "click"], [1, "like-count", "d-flex", "align-self-center"], [1, "author-icon", "ms-3", 3, "backgroundImage"], [1, "author-icon", "ms-3"], [1, "icon", "material-symbols-rounded"]], template: function Comments_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _Comments, selectors: [["app-comments"]], decls: 12, vars: 1, consts: [[1, "container", "page-container"], [1, "row", "justify-content-end"], [1, "col-3", "d-flex", "justify-content-end"], ["aria-label", "sort select", 1, "form-select", 3, "change", "value"], ["selected", "", "value", "newest"], ["value", "oldest"], ["value", "likes"], [1, "row", "mt-5"], [1, "col", "col-1", "profile-picture"], ["alt", "Profile Picture", "width", "32", "height", "32", 1, "rounded-circle", 3, "src"], [1, "col"], [1, "row"], [1, "message"], [1, "message-author"], [1, "col", "text-end"], [1, "message-date"], [1, "message-content", 3, "innerHTML"], [1, "row", "mt-3"], [1, "col", "col-2", "d-flex", "align-self-center"], [1, "me-2", "d-flex", "align-self-center"], ["role", "button", 3, "click"], [1, "like-count", "d-flex", "align-self-center"], [1, "author-icon", "ms-3", 3, "backgroundImage"], [1, "author-icon", "ms-3"], [1, "icon", "material-symbols-rounded"]], template: function Comments_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275domElementStart(0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "select", 3);
       \u0275\u0275domListener("change", function Comments_Template_select_change_3_listener($event) {
@@ -38003,7 +38003,7 @@ var Comments = class _Comments {
         <div class="col col-1 profile-picture">\r
             <img [src]="message.profile_photo" alt="Profile Picture" class="rounded-circle" width="32" height="32">\r
         </div>\r
-        <div class="col col-11">\r
+        <div class="col">\r
             <div class="row">\r
                 <div class="message">\r
                     <div class="row">\r
@@ -42724,11 +42724,285 @@ var Admin = class _Admin {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(Admin, { className: "Admin", filePath: "src/app/admin/admin.ts", lineNumber: 10 });
 })();
 
+// src/app/how-to/how-to.ts
+var HowTo = class _HowTo {
+  static \u0275fac = function HowTo_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _HowTo)();
+  };
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HowTo, selectors: [["app-how-to"]], decls: 114, vars: 0, consts: [[1, "container", "py-5"], [1, "mb-4"], [1, "mb-5"], [1, "mt-0", "mb-3"], [1, "mb-3"], ["href", "https://www.tampermonkey.net/index.php", "target", "_blank"], ["src", "/assets/howto/step1_1.png", "height", "300", "alt", "Tampermonkey download button"], ["src", "/assets/howto/step1_2.png", "height", "300", "alt", "Browser store add extension"], ["src", "/assets/howto/step2_1_1.png", "height", "300", "alt", "Open browser extensions menu"], ["src", "/assets/howto/step2_1_2.png", "height", "300", "alt", "Manage extensions option"], ["src", "/assets/howto/step2_2.png", "height", "300", "alt", "Enable allow user scripts"], ["href", "https://github.com/no-trains/better-patreon-comments-scripts/raw/refs/heads/main/better-patreon-comments.user.js", "target", "_blank"], ["src", "/assets/howto/step3_1.png", "height", "300", "alt", "Tampermonkey install script page"], ["src", "/assets/howto/step3_2.png", "height", "300", "alt", "Tampermonkey dashboard showing enabled script"], ["src", "/assets/howto/step3_3.png", "height", "300", "alt", "Red View Comments (Custom) button on Patreon post"], ["href", "https://www.tampermonkey.net/", "target", "_blank"]], template: function HowTo_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275domElementStart(0, "div", 0)(1, "h1", 1);
+      \u0275\u0275text(2, "How to Install Better Patreon Comments");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(3, "section", 2)(4, "h2", 3);
+      \u0275\u0275text(5, "Step 1: Install Tampermonkey Beta");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(6, "p");
+      \u0275\u0275text(7, "Tampermonkey is a userscript manager that lets you run custom scripts on websites.");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(8, "h3", 4);
+      \u0275\u0275text(9, "Install the extension");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(10, "ul")(11, "li")(12, "strong");
+      \u0275\u0275text(13, "Open:");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(14, "a", 5);
+      \u0275\u0275text(15, "Tampermonkey website");
+      \u0275\u0275domElementEnd()()();
+      \u0275\u0275domElementStart(16, "ol")(17, "li");
+      \u0275\u0275text(18, "Select your browser.");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(19, "li");
+      \u0275\u0275text(20, "Scroll down to the ");
+      \u0275\u0275domElementStart(21, "strong");
+      \u0275\u0275text(22, "Download");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275text(23, " section.");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(24, "li");
+      \u0275\u0275text(25, ' Click the "Get From Store" or "Download" button for ');
+      \u0275\u0275domElementStart(26, "strong");
+      \u0275\u0275text(27, "Tampermonkey BETA");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275text(28, ". ");
+      \u0275\u0275domElement(29, "br")(30, "img", 6);
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(31, "li");
+      \u0275\u0275text(32, " This opens the browser store page \u2014 add the extension to your browser. ");
+      \u0275\u0275domElement(33, "br")(34, "img", 7);
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(35, "li");
+      \u0275\u0275text(36, "If prompted, confirm the permission dialog.");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(37, "li");
+      \u0275\u0275text(38, "The Tampermonkey icon should appear in your browser toolbar.");
+      \u0275\u0275domElementEnd()()();
+      \u0275\u0275domElementStart(39, "section", 2)(40, "h2", 3);
+      \u0275\u0275text(41, "Step 2: Configure Tampermonkey");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(42, "ol")(43, "li");
+      \u0275\u0275text(44, " Open your browser's extensions page (menu \u2192 Manage extensions). ");
+      \u0275\u0275domElement(45, "br")(46, "img", 8)(47, "img", 9);
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(48, "li");
+      \u0275\u0275text(49, " Enable ");
+      \u0275\u0275domElementStart(50, "strong");
+      \u0275\u0275text(51, "Allow user scripts");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275text(52, " for Tampermonkey. ");
+      \u0275\u0275domElement(53, "br")(54, "img", 10);
+      \u0275\u0275domElementEnd()()();
+      \u0275\u0275domElementStart(55, "section", 2)(56, "h2", 3);
+      \u0275\u0275text(57, "Step 3: Install the Better Patreon Comments script");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(58, "ol")(59, "li");
+      \u0275\u0275text(60, " Open the script file on GitHub: ");
+      \u0275\u0275domElementStart(61, "a", 11);
+      \u0275\u0275text(62, "Better Patreon Comments script (GitHub)");
+      \u0275\u0275domElementEnd()();
+      \u0275\u0275domElementStart(63, "li");
+      \u0275\u0275text(64, " This should open the Tampermonkey install page. Click the ");
+      \u0275\u0275domElementStart(65, "strong");
+      \u0275\u0275text(66, "Install");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275text(67, " button. ");
+      \u0275\u0275domElement(68, "br")(69, "img", 12);
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(70, "li");
+      \u0275\u0275text(71, " Open Tampermonkey from your extensions; the script should appear in the dashboard and show as ");
+      \u0275\u0275domElementStart(72, "strong");
+      \u0275\u0275text(73, "Enabled");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275text(74, ". ");
+      \u0275\u0275domElement(75, "br")(76, "img", 13);
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(77, "li");
+      \u0275\u0275text(78, ' The script is now active on Patreon. You should see a red "View Comments (Custom)" button at the bottom-right of a post page. ');
+      \u0275\u0275domElement(79, "br")(80, "img", 14);
+      \u0275\u0275domElementEnd()()();
+      \u0275\u0275domElementStart(81, "section", 2)(82, "h2", 3);
+      \u0275\u0275text(83, "How to use");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(84, "ol")(85, "li");
+      \u0275\u0275text(86, "Open a Patreon post page.");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(87, "li");
+      \u0275\u0275text(88, 'Click the red "View Comments (Custom)" button at the bottom-right of the page.');
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(89, "li");
+      \u0275\u0275text(90, "A new tab will open showing the comments; it may take a few seconds to load.");
+      \u0275\u0275domElementEnd()()();
+      \u0275\u0275domElementStart(91, "section", 2)(92, "h2", 3);
+      \u0275\u0275text(93, "Troubleshooting");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(94, "ul")(95, "li")(96, "strong");
+      \u0275\u0275text(97, "Script not working:");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275text(98, " Refresh the Patreon page and ensure Tampermonkey is enabled.");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(99, "li")(100, "strong");
+      \u0275\u0275text(101, "Tampermonkey icon missing:");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275text(102, " Check your browser extensions and pin Tampermonkey to the toolbar.");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(103, "li")(104, "strong");
+      \u0275\u0275text(105, "Permission errors:");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275text(106, " Make sure Tampermonkey is allowed to run scripts on Patreon.");
+      \u0275\u0275domElementEnd()()();
+      \u0275\u0275domElementStart(107, "section", 2)(108, "h2", 3);
+      \u0275\u0275text(109, "Need Help?");
+      \u0275\u0275domElementEnd();
+      \u0275\u0275domElementStart(110, "p");
+      \u0275\u0275text(111, " For more information, visit the ");
+      \u0275\u0275domElementStart(112, "a", 15);
+      \u0275\u0275text(113, "Tampermonkey official website");
+      \u0275\u0275domElementEnd()()()();
+    }
+  }, styles: ["\n/*# sourceMappingURL=how-to.css.map */"] });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(HowTo, [{
+    type: Component,
+    args: [{ selector: "app-how-to", imports: [], template: `<div class="container py-5">\r
+    <h1 class="mb-4">How to Install Better Patreon Comments</h1>\r
+\r
+    <section class="mb-5">\r
+        <h2 class="mt-0 mb-3">Step 1: Install Tampermonkey Beta</h2>\r
+        <p>Tampermonkey is a userscript manager that lets you run custom scripts on websites.</p>\r
+\r
+        <h3 class="mb-3">Install the extension</h3>\r
+        <ul>\r
+            <li>\r
+                <strong>Open:</strong>\r
+                <a href="https://www.tampermonkey.net/index.php" target="_blank">Tampermonkey website</a>\r
+            </li>\r
+        </ul>\r
+\r
+        <ol>\r
+            <li>Select your browser.</li>\r
+            <li>Scroll down to the <strong>Download</strong> section.</li>\r
+            <li>\r
+                Click the "Get From Store" or "Download" button for <strong>Tampermonkey BETA</strong>.\r
+                <br />\r
+                <img src="/assets/howto/step1_1.png" height="300" alt="Tampermonkey download button" />\r
+            </li>\r
+            <li>\r
+                This opens the browser store page \u2014 add the extension to your browser.\r
+                <br />\r
+                <img src="/assets/howto/step1_2.png" height="300" alt="Browser store add extension" />\r
+            </li>\r
+            <li>If prompted, confirm the permission dialog.</li>\r
+            <li>The Tampermonkey icon should appear in your browser toolbar.</li>\r
+        </ol>\r
+    </section>\r
+\r
+    <section class="mb-5">\r
+        <h2 class="mt-0 mb-3">Step 2: Configure Tampermonkey</h2>\r
+\r
+        <ol>\r
+            <li>\r
+                Open your browser's extensions page (menu \u2192 Manage extensions).\r
+                <br />\r
+                <img src="/assets/howto/step2_1_1.png" height="300" alt="Open browser extensions menu" />\r
+                <img src="/assets/howto/step2_1_2.png" height="300" alt="Manage extensions option" />\r
+            </li>\r
+            <li>\r
+                Enable <strong>Allow user scripts</strong> for Tampermonkey.\r
+                <br />\r
+                <img src="/assets/howto/step2_2.png" height="300" alt="Enable allow user scripts" />\r
+            </li>\r
+        </ol>\r
+    </section>\r
+\r
+    <section class="mb-5">\r
+        <h2 class="mt-0 mb-3">Step 3: Install the Better Patreon Comments script</h2>\r
+\r
+        <ol>\r
+            <li>\r
+                Open the script file on GitHub:\r
+                <a href="https://github.com/no-trains/better-patreon-comments-scripts/raw/refs/heads/main/better-patreon-comments.user.js" target="_blank">Better Patreon Comments script (GitHub)</a>\r
+            </li>\r
+            <li>\r
+                This should open the Tampermonkey install page. Click the <strong>Install</strong> button.\r
+                <br />\r
+                <img src="/assets/howto/step3_1.png" height="300" alt="Tampermonkey install script page" />\r
+            </li>\r
+            <li>\r
+                Open Tampermonkey from your extensions; the script should appear in the dashboard and show as <strong>Enabled</strong>.\r
+                <br />\r
+                <img src="/assets/howto/step3_2.png" height="300" alt="Tampermonkey dashboard showing enabled script" />\r
+            </li>\r
+            <li>\r
+                The script is now active on Patreon. You should see a red "View Comments (Custom)" button at the bottom-right of a post page.\r
+                <br />\r
+                <img src="/assets/howto/step3_3.png" height="300" alt="Red View Comments (Custom) button on Patreon post" />\r
+            </li>\r
+        </ol>\r
+    </section>\r
+\r
+    <section class="mb-5">\r
+        <h2 class="mt-0 mb-3">How to use</h2>\r
+\r
+        <ol>\r
+            <li>Open a Patreon post page.</li>\r
+            <li>Click the red "View Comments (Custom)" button at the bottom-right of the page.</li>\r
+            <li>A new tab will open showing the comments; it may take a few seconds to load.</li>\r
+        </ol>\r
+    </section>\r
+\r
+    <section class="mb-5">\r
+        <h2 class="mt-0 mb-3">Troubleshooting</h2>\r
+        <ul>\r
+            <li><strong>Script not working:</strong> Refresh the Patreon page and ensure Tampermonkey is enabled.</li>\r
+            <li><strong>Tampermonkey icon missing:</strong> Check your browser extensions and pin Tampermonkey to the toolbar.</li>\r
+            <li><strong>Permission errors:</strong> Make sure Tampermonkey is allowed to run scripts on Patreon.</li>\r
+        </ul>\r
+    </section>\r
+\r
+    <section class="mb-5">\r
+        <h2 class="mt-0 mb-3">Need Help?</h2>\r
+        <p>\r
+            For more information, visit the\r
+            <a href="https://www.tampermonkey.net/" target="_blank">Tampermonkey official website</a>\r
+        </p>\r
+    </section>\r
+</div>\r
+`, styles: ["/* src/app/how-to/how-to.scss */\n/*# sourceMappingURL=how-to.css.map */\n"] }]
+  }], null, null);
+})();
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(HowTo, { className: "HowTo", filePath: "src/app/how-to/how-to.ts", lineNumber: 9 });
+})();
+
+// src/app/about/about.ts
+var About = class _About {
+  static \u0275fac = function About_Factory(__ngFactoryType__) {
+    return new (__ngFactoryType__ || _About)();
+  };
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _About, selectors: [["app-about"]], decls: 2, vars: 0, template: function About_Template(rf, ctx) {
+    if (rf & 1) {
+      \u0275\u0275domElementStart(0, "p");
+      \u0275\u0275text(1, "about works!");
+      \u0275\u0275domElementEnd();
+    }
+  }, encapsulation: 2 });
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(About, [{
+    type: Component,
+    args: [{ selector: "app-about", imports: [], template: "<p>about works!</p>\r\n" }]
+  }], null, null);
+})();
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(About, { className: "About", filePath: "src/app/about/about.ts", lineNumber: 9 });
+})();
+
 // src/app/app.routes.ts
 var routes = [
   {
     path: "",
-    redirectTo: "admin",
+    redirectTo: "how-to",
     pathMatch: "full"
   },
   {
@@ -42742,6 +43016,14 @@ var routes = [
   {
     path: "admin",
     component: Admin
+  },
+  {
+    path: "how-to",
+    component: HowTo
+  },
+  {
+    path: "about",
+    component: About
   }
 ];
 
@@ -42771,7 +43053,7 @@ var App = class _App {
   static \u0275fac = function App_Factory(__ngFactoryType__) {
     return new (__ngFactoryType__ || _App)();
   };
-  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _App, selectors: [["app-root"]], decls: 7, vars: 1, consts: [[1, "navbar", "appbar"], [1, "container"], [1, "navbar-brand", "mb-0", "h1"], [1, "form-check", "form-switch", "fs-4"], ["type", "checkbox", "id", "darkModeSwitch", 1, "form-check-input", 3, "change", "checked"]], template: function App_Template(rf, ctx) {
+  static \u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _App, selectors: [["app-root"]], decls: 22, vars: 1, consts: [[1, "navbar", "appbar"], [1, "container"], [1, "navbar-brand", "mb-0", "h1"], [1, "form-check", "form-switch", "fs-4"], ["type", "checkbox", "id", "darkModeSwitch", 1, "form-check-input", 3, "change", "checked"], [1, "router-outlet"], [1, "footer"], [1, "nav", "justify-content-center", "border-bottom", "pb-3", "mb-3"], [1, "nav-item"], ["href", "#/admin", 1, "nav-link", "px-2", "text-body-secondary"], ["href", "#/how-to", 1, "nav-link", "px-2", "text-body-secondary"], ["href", "#/about", 1, "nav-link", "px-2", "text-body-secondary"], [1, "text-center", "text-body-secondary"]], template: function App_Template(rf, ctx) {
     if (rf & 1) {
       \u0275\u0275elementStart(0, "nav", 0)(1, "div", 1)(2, "span", 2);
       \u0275\u0275text(3, "Better Patreon Comments");
@@ -42781,18 +43063,32 @@ var App = class _App {
         return ctx.toggleDarkMode();
       });
       \u0275\u0275elementEnd()()()();
-      \u0275\u0275element(6, "router-outlet");
+      \u0275\u0275elementStart(6, "div", 5);
+      \u0275\u0275element(7, "router-outlet");
+      \u0275\u0275elementEnd();
+      \u0275\u0275elementStart(8, "div", 6)(9, "footer", 1)(10, "ul", 7)(11, "li", 8)(12, "a", 9);
+      \u0275\u0275text(13, "Admin");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(14, "li", 8)(15, "a", 10);
+      \u0275\u0275text(16, "How To");
+      \u0275\u0275elementEnd()();
+      \u0275\u0275elementStart(17, "li", 8)(18, "a", 11);
+      \u0275\u0275text(19, "About");
+      \u0275\u0275elementEnd()()();
+      \u0275\u0275elementStart(20, "p", 12);
+      \u0275\u0275text(21, "\xA9 No-Trains");
+      \u0275\u0275elementEnd()()();
     }
     if (rf & 2) {
       \u0275\u0275advance(5);
       \u0275\u0275property("checked", ctx.darkTheme());
     }
-  }, dependencies: [RouterOutlet], styles: ["\n.form-switch[_ngcontent-%COMP%]   .form-check-input[_ngcontent-%COMP%] {\n  outline: 0;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);\n  border: 2px solid rgba(36, 36, 36, 0.25);\n  background-image: url(/assets/light_mode.svg);\n}\n.form-switch[_ngcontent-%COMP%]   .form-check-input[_ngcontent-%COMP%]:focus {\n  outline: 0;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);\n  border: 2px solid rgba(36, 36, 36, 0.25);\n  background-image: url(/assets/light_mode.svg);\n}\n.form-switch[_ngcontent-%COMP%]   .form-check-input[_ngcontent-%COMP%]:checked {\n  background-color: #2c2c2c;\n  border: 2px solid rgba(255, 255, 255, 0.25);\n  background-image: url(/assets/dark_mode.svg);\n}\n/*# sourceMappingURL=app.css.map */"] });
+  }, dependencies: [RouterOutlet], styles: ["\n.form-switch[_ngcontent-%COMP%]   .form-check-input[_ngcontent-%COMP%] {\n  outline: 0;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);\n  border: 2px solid rgba(36, 36, 36, 0.25);\n  background-image: url(/assets/light_mode.svg);\n}\n.form-switch[_ngcontent-%COMP%]   .form-check-input[_ngcontent-%COMP%]:focus {\n  outline: 0;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);\n  border: 2px solid rgba(36, 36, 36, 0.25);\n  background-image: url(/assets/light_mode.svg);\n}\n.form-switch[_ngcontent-%COMP%]   .form-check-input[_ngcontent-%COMP%]:checked {\n  background-color: #2c2c2c;\n  border: 2px solid rgba(255, 255, 255, 0.25);\n  background-image: url(/assets/dark_mode.svg);\n}\n.router-outlet[_ngcontent-%COMP%] {\n  min-height: 80vh;\n}\n.footer[_ngcontent-%COMP%] {\n  min-height: 15vh;\n  display: flex;\n  justify-content: center;\n  align-items: end;\n  box-shadow: 0px 0px 20px -13px var(--bs-body-color);\n}\n/*# sourceMappingURL=app.css.map */"] });
 };
 (() => {
   (typeof ngDevMode === "undefined" || ngDevMode) && setClassMetadata(App, [{
     type: Component,
-    args: [{ selector: "app-root", imports: [RouterOutlet], template: '<nav class="navbar appbar">\r\n  <div class="container">\r\n    <span class="navbar-brand mb-0 h1">Better Patreon Comments</span>\r\n    <div class="form-check form-switch fs-4">\r\n      <input class="form-check-input" type="checkbox" id="darkModeSwitch" (change)="toggleDarkMode()" [checked]="darkTheme()">\r\n    </div>\r\n  </div>\r\n</nav>\r\n<router-outlet />', styles: ["/* src/app/app.scss */\n.form-switch .form-check-input {\n  outline: 0;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);\n  border: 2px solid rgba(36, 36, 36, 0.25);\n  background-image: url(/assets/light_mode.svg);\n}\n.form-switch .form-check-input:focus {\n  outline: 0;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);\n  border: 2px solid rgba(36, 36, 36, 0.25);\n  background-image: url(/assets/light_mode.svg);\n}\n.form-switch .form-check-input:checked {\n  background-color: #2c2c2c;\n  border: 2px solid rgba(255, 255, 255, 0.25);\n  background-image: url(/assets/dark_mode.svg);\n}\n/*# sourceMappingURL=app.css.map */\n"] }]
+    args: [{ selector: "app-root", imports: [RouterOutlet], template: '<nav class="navbar appbar">\r\n  <div class="container">\r\n    <span class="navbar-brand mb-0 h1">Better Patreon Comments</span>\r\n    <div class="form-check form-switch fs-4">\r\n      <input class="form-check-input" type="checkbox" id="darkModeSwitch" (change)="toggleDarkMode()"\r\n        [checked]="darkTheme()">\r\n    </div>\r\n  </div>\r\n</nav>\r\n<div class="router-outlet">\r\n  <router-outlet/>\r\n</div>\r\n\r\n<div class="footer">\r\n  <footer class="container">\r\n    <ul class="nav justify-content-center border-bottom pb-3 mb-3">\r\n      <li class="nav-item"><a href="#/admin" class="nav-link px-2 text-body-secondary">Admin</a></li>\r\n      <li class="nav-item"><a href="#/how-to" class="nav-link px-2 text-body-secondary">How To</a></li>\r\n      <li class="nav-item"><a href="#/about" class="nav-link px-2 text-body-secondary">About</a></li>\r\n    </ul>\r\n    <p class="text-center text-body-secondary">\xA9 No-Trains</p>\r\n  </footer>\r\n</div>', styles: ["/* src/app/app.scss */\n.form-switch .form-check-input {\n  outline: 0;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);\n  border: 2px solid rgba(36, 36, 36, 0.25);\n  background-image: url(/assets/light_mode.svg);\n}\n.form-switch .form-check-input:focus {\n  outline: 0;\n  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.25);\n  border: 2px solid rgba(36, 36, 36, 0.25);\n  background-image: url(/assets/light_mode.svg);\n}\n.form-switch .form-check-input:checked {\n  background-color: #2c2c2c;\n  border: 2px solid rgba(255, 255, 255, 0.25);\n  background-image: url(/assets/dark_mode.svg);\n}\n.router-outlet {\n  min-height: 80vh;\n}\n.footer {\n  min-height: 15vh;\n  display: flex;\n  justify-content: center;\n  align-items: end;\n  box-shadow: 0px 0px 20px -13px var(--bs-body-color);\n}\n/*# sourceMappingURL=app.css.map */\n"] }]
   }], null, null);
 })();
 (() => {
